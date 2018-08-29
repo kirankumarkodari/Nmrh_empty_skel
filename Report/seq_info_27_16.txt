@@ -1,0 +1,12 @@
+SEQUENCE MISS REPORT FOR SPOT_8
+Report Taken on : 28/Apr/18 10:23:39
+From: 27/Apr/18  00:00:00
+To: 27/Apr/18  23:59:59 
+SlNo     FROM SEQ.NO                    TO SEQ.NO     FROM TIME                   TO TIME                     COUNT     REMARKS     
+1        698                            720           04/27/2018 16:29:43:390     04/27/2018 16:29:45:359     21        Missed      
+2        721                            699           04/27/2018 16:29:45:500     04/27/2018 16:29:45:984     65512     Missed      
+3        719                            722           04/27/2018 16:29:45:984     04/27/2018 16:29:48:703     2         Missed      
+4        793                            796           04/27/2018 16:31:43:984     04/27/2018 16:31:43:984     2         Missed      
+5        1198                           0             04/27/2018 17:02:51:984     04/27/2018 17:21:02:000     ~~~       DlReset     
+                                                                                                                                    
+         No Of Times  Missed :          4             Total Missed:               65537                                             

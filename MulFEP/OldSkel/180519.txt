@@ -1,0 +1,1 @@
+insert into MULTIPLEFEPCOMMUNICATIONDLS (FEPID,DLID,DLNAME,IsDuplicate,DLConnectedTime,IsRegistered,ConnectedToModule) values (2,5,'BHMS_5',0,'05/19/2018 14:52:50',0,0)

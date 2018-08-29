@@ -1,0 +1,2 @@
+UPDATECNACLASSES [DL NO :- 8 ] : tuData_Avail_Lost_Info TOT DLCNT - 0 - New Station is Added with the Name 'Level3_8' at Index 0 on 21-Mar-18 12:13:26.275
+UPDATECNACLASSES [DL NO :- 2 ] : tuData_Avail_Lost_Info TOT DLCNT - 5 - New Station is Added with the Name 'level1_2' at Index 5 on 27-Mar-18 17:13:48.583

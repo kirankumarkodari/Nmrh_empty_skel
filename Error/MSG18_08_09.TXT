@@ -1,0 +1,91 @@
+#. Configure DL Network and restart NMDL
+MODULE NAME : TataRakshak Version - A.A.A 28-July-17 : 08/09/2018 21:04:34
+NMDL runs with following settings :
+  Data Base : Interbase
+  DLYEAR
+  Srilanka
+  CNA - 3.1
+  Updation in Timer
+  Amararaja-IPS
+  Central Server Posting
+End of NMDL Settings
+#. Please run Latest version of Fault Entry S/W. And Rerun the S/W for Fault Process 
+MODULE NAME : TataRakshak Version - A.A.A 28-July-17 , Closed at 08/09/2018 21:05:04
+#. Configure DL Network and restart NMDL
+MODULE NAME : TataRakshak Version - A.A.A 28-July-17 : 08/09/2018 21:05:32
+NMDL runs with following settings :
+  Data Base : Interbase
+  DLYEAR
+  Srilanka
+  CNA - 3.1
+  Updation in Timer
+  Amararaja-IPS
+  Central Server Posting
+End of NMDL Settings
+#. Please run Latest version of Fault Entry S/W. And Rerun the S/W for Fault Process 
+MODULE NAME : TataRakshak Version - A.A.A 28-July-17 , Closed at 08/09/2018 21:05:52
+#. Configure DL Network and restart NMDL
+MODULE NAME : TataRakshak Version - A.A.A 28-July-17 : 08/09/2018 21:06:12
+NMDL runs with following settings :
+  Data Base : Interbase
+  DLYEAR
+  Srilanka
+  CNA - 3.1
+  Updation in Timer
+  Amararaja-IPS
+  Central Server Posting
+End of NMDL Settings
+#. Please run Latest version of Fault Entry S/W. And Rerun the S/W for Fault Process 
+MODULE NAME : TataRakshak Version - A.A.A 28-July-17 , Closed at 08/09/2018 21:06:30
+#. Configure DL Network and restart NMDL
+MODULE NAME : TataRakshak Version - A.A.A 28-July-17 : 08/09/2018 21:12:16
+NMDL runs with following settings :
+  Data Base : Interbase
+  DLYEAR
+  Srilanka
+  CNA - 3.1
+  Updation in Timer
+  Amararaja-IPS
+  Central Server Posting
+End of NMDL Settings
+#. Please run Latest version of Fault Entry S/W. And Rerun the S/W for Fault Process 
+MODULE NAME : TataRakshak Version - A.A.A 28-July-17 , Closed at 08/09/2018 21:12:46
+#. Configure DL Network and restart NMDL
+MODULE NAME : TataRakshak Version - A.A.A 28-July-17 : 08/09/2018 21:13:05
+NMDL runs with following settings :
+  Data Base : Interbase
+  DLYEAR
+  Srilanka
+  CNA - 3.1
+  Updation in Timer
+  Amararaja-IPS
+  Central Server Posting
+End of NMDL Settings
+#. Please run Latest version of Fault Entry S/W. And Rerun the S/W for Fault Process 
+MODULE NAME : TataRakshak Version - A.A.A 28-July-17 , Closed at 08/09/2018 21:13:31
+#. Configure DL Network and restart NMDL
+MODULE NAME : TataRakshak Version - A.A.A 28-July-17 : 08/09/2018 21:27:11
+NMDL runs with following settings :
+  Data Base : Interbase
+  DLYEAR
+  Srilanka
+  CNA - 3.1
+  Updation in Timer
+  Amararaja-IPS
+  Central Server Posting
+End of NMDL Settings
+#. Please run Latest version of Fault Entry S/W. And Rerun the S/W for Fault Process 
+MODULE NAME : TataRakshak Version - A.A.A 28-July-17 , Closed at 08/09/2018 21:27:33
+#. Configure DL Network and restart NMDL
+MODULE NAME : TataRakshak Version - A.A.A 28-July-17 : 08/09/2018 21:28:46
+NMDL runs with following settings :
+  Data Base : Interbase
+  DLYEAR
+  Srilanka
+  CNA - 3.1
+  Updation in Timer
+  Amararaja-IPS
+  Central Server Posting
+End of NMDL Settings
+#. Please run Latest version of Fault Entry S/W. And Rerun the S/W for Fault Process 
+MODULE NAME : TataRakshak Version - A.A.A 28-July-17 , Closed at 08/09/2018 21:29:09

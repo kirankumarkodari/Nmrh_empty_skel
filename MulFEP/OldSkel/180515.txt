@@ -1,0 +1,2 @@
+insert into ONLINEDATA (DLNO) values (3)
+insert into ONLINEDATA (DLNO) values (3)

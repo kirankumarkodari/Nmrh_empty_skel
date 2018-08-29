@@ -1,0 +1,1 @@
+Provider=SQLOLEDB.1;Password=Effiot@123;Persist Security Info=False;User ID=Efftronics;Initial Catalog=rtls_db;Data Source=tcp:efftronicsserver.database.windows.net,1433;

@@ -1,0 +1,13 @@
+#. Configure DL Network and restart NMDL
+MODULE NAME : TataRakshak Version - A.A.A 28-July-17 : 08/02/2018 12:22:10
+NMDL runs with following settings :
+  Data Base : Interbase
+  DLYEAR
+  Srilanka
+  CNA - 3.1
+  Updation in Timer
+  Amararaja-IPS
+  Central Server Posting
+End of NMDL Settings
+#. Please run Latest version of Fault Entry S/W. And Rerun the S/W for Fault Process 
+MODULE NAME : TataRakshak Version - A.A.A 28-July-17 , Closed at 08/02/2018 12:23:57

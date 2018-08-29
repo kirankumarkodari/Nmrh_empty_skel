@@ -1,0 +1,107 @@
+Delete from MULTIPLEFEPCOMMUNICATIONDLS where ((DLID = 2) and (IsDuplicate = 0) and (IsRegistered = 1))
+Delete from MULTIPLEFEPCOMMUNICATIONDLS where ((DLID = 2) and (IsDuplicate = 0) and (IsRegistered = 1))
+delete from RHSetUp where DLNO=2
+update RTLS_ZONEDTLS set actinact= 0,created_time=CAST( '04/27/2018 15:44:09' AS TIMESTAMP),oparation_type= 2 where ZONE_ID=2 AND gid = 1
+Delete from MULTIPLEFEPCOMMUNICATIONDLS where ((DLID = 3) and (IsDuplicate = 0) and (IsRegistered = 1))
+Delete from MULTIPLEFEPCOMMUNICATIONDLS where ((DLID = 3) and (IsDuplicate = 0) and (IsRegistered = 1))
+delete from RHSetUp where DLNO=3
+update RTLS_ZONEDTLS set actinact= 0,created_time=CAST( '04/27/2018 15:44:14' AS TIMESTAMP),oparation_type= 2 where ZONE_ID=3 AND gid = 1
+Delete from MULTIPLEFEPCOMMUNICATIONDLS where ((DLID = 4) and (IsDuplicate = 0) and (IsRegistered = 1))
+Delete from MULTIPLEFEPCOMMUNICATIONDLS where ((DLID = 4) and (IsDuplicate = 0) and (IsRegistered = 1))
+delete from RHSetUp where DLNO=4
+update RTLS_ZONEDTLS set actinact= 0,created_time=CAST( '04/27/2018 15:44:19' AS TIMESTAMP),oparation_type= 2 where ZONE_ID=4 AND gid = 1
+Delete from MULTIPLEFEPCOMMUNICATIONDLS where ((DLID = 5) and (IsDuplicate = 0) and (IsRegistered = 1))
+Delete from MULTIPLEFEPCOMMUNICATIONDLS where ((DLID = 5) and (IsDuplicate = 0) and (IsRegistered = 1))
+delete from RHSetUp where DLNO=5
+update RTLS_ZONEDTLS set actinact= 0,created_time=CAST( '04/27/2018 15:44:24' AS TIMESTAMP),oparation_type= 2 where ZONE_ID=5 AND gid = 1
+Delete from MULTIPLEFEPCOMMUNICATIONDLS where ((DLID = 6) and (IsDuplicate = 0) and (IsRegistered = 1))
+Delete from MULTIPLEFEPCOMMUNICATIONDLS where ((DLID = 6) and (IsDuplicate = 0) and (IsRegistered = 1))
+delete from RHSetUp where DLNO=6
+update RTLS_ZONEDTLS set actinact= 0,created_time=CAST( '04/27/2018 15:44:29' AS TIMESTAMP),oparation_type= 2 where ZONE_ID=6 AND gid = 1
+Delete from MULTIPLEFEPCOMMUNICATIONDLS where ((DLID = 8) and (IsDuplicate = 0) and (IsRegistered = 1))
+Delete from MULTIPLEFEPCOMMUNICATIONDLS where ((DLID = 8) and (IsDuplicate = 0) and (IsRegistered = 1))
+delete from RHSetUp where DLNO=8
+update RTLS_ZONEDTLS set actinact= 0,created_time=CAST( '04/27/2018 15:44:33' AS TIMESTAMP),oparation_type= 2 where ZONE_ID=8 AND gid = 1
+Delete from MULTIPLEFEPCOMMUNICATIONDLS where ((DLID = 10) and (IsDuplicate = 0) and (IsRegistered = 1))
+Delete from MULTIPLEFEPCOMMUNICATIONDLS where ((DLID = 10) and (IsDuplicate = 0) and (IsRegistered = 1))
+delete from RHSetUp where DLNO=10
+update RTLS_ZONEDTLS set actinact= 0,created_time=CAST( '04/27/2018 15:44:37' AS TIMESTAMP),oparation_type= 2 where ZONE_ID=10 AND gid = 1
+Delete from MULTIPLEFEPCOMMUNICATIONDLS where ((DLID = 11) and (IsDuplicate = 0) and (IsRegistered = 1))
+Delete from MULTIPLEFEPCOMMUNICATIONDLS where ((DLID = 11) and (IsDuplicate = 0) and (IsRegistered = 1))
+delete from RHSetUp where DLNO=11
+update RTLS_ZONEDTLS set actinact= 0,created_time=CAST( '04/27/2018 15:44:42' AS TIMESTAMP),oparation_type= 2 where ZONE_ID=11 AND gid = 1
+update RTLS_GATEWAY set actinact=0,created_time=CAST( '04/27/2018 15:44:45' AS TIMESTAMP),opeartion_type=2 where gid=1
+Update MULTIPLEFEPCOMMUNICATIONFEPS set FEPName='eff_gateway' where FEPID=2
+Update MULTIPLEFEPCOMMUNICATIONFEPS set FEPPort=80 where FEPID=2
+Update MULTIPLEFEPCOMMUNICATIONFEPS set IsConfigured=1 where FEPID=2
+update RTLS_GATEWAY set gateway_name='eff_gateway',gateway_ip='192.168.1.219',gateway_port=80,created_time=CAST( '04/27/2018 15:45:26' AS TIMESTAMP),opeartion_type=1,actinact = 1  WHERE gid=2
+delete from ONLINEDATA where (DLNO=3)
+delete from ONLINEDATA where (DLNO=6)
+delete from ONLINEDATA where (DLNO=8)
+delete from ONLINEDATA where (DLNO=10)
+delete from ONLINEDATA where (DLNO=11)
+delete from ONLINEDATA where (DLNO=2)
+delete from ONLINEDATA where (DLNO=5)
+delete from ONLINEDATA where (DLNO=4)
+insert into MULTIPLEFEPCOMMUNICATIONDLS (FEPID,DLID,DLNAME,IsDuplicate,DLConnectedTime,IsRegistered,ConnectedToModule) values (2,8,'BHMS_8',0,'04/27/2018 16:23:42',0,0)
+Update MULTIPLEFEPCOMMUNICATIONDLS set IsRegistered=1 where DLID=8
+Update MULTIPLEFEPCOMMUNICATIONDLS set DLNAME='LEVEL_2_8' where DLID=8
+INSERT INTO RHSETUP (DLTYPE,DLNO,DLNAME,DLSTATION,DSIGNOW,ASIGNOW,CONDSIGCNT,CONSTARTDSIGCNT,DLMAKE,MCARD,ADLTYPE,ACARD,ADIR,ADSIGNOW,AASIGNOW,FLTUDCOUNT,DLINDEX,DLSUPCHNO,DLLVR,S96ANLG,USEAUTO,RTDLID,MASTERDLID,STATION_ORDER,IPS_GRP,FLTS_BLOCK) VALUES('R',8,'LEVEL_2_8','LEVEL_2_8',16 ,17 ,16 ,1 ,'EFF','16 INPUT CARD ','R','16 INPUT CARD ','UNI',16 ,17 ,0, 1 ,0 ,0 ,'Y','0',8 ,8,0 ,1 ,'N')
+update RTLS_ZONEDTLS set gid= 2,ZONE_NAME='LEVEL_2_8',AREA='IOT',SAFE_UNSAFE=1,actinact = 1 ,created_time=CAST( '04/27/2018 16:25:37' AS TIMESTAMP),oparation_type=1 where ZONE_ID=8
+Update MULTIPLEFEPCOMMUNICATIONDLS set DLNAME='LEVEL_2_8' where DLID=8
+Update  RHSetUp Set DLNAME='LEVEL_2_8',DLSTATION='LEVEL_2_8' where dlno=8
+update RTLS_ZONEDTLS set gid= 2,ZONE_NAME='LEVEL_2_8',AREA='IOT',SAFE_UNSAFE=1,actinact = 1 ,created_time=CAST( '04/27/2018 16:26:07' AS TIMESTAMP),oparation_type=1 where ZONE_ID=8
+Update MULTIPLEFEPCOMMUNICATIONDLS set DLNAME='SPOT_8' where DLID=8
+Update  RHSetUp Set DLNAME='SPOT_8',DLSTATION='SPOT_8' where dlno=8
+update RTLS_ZONEDTLS set gid= 2,ZONE_NAME='SPOT_8',AREA='IOT',SAFE_UNSAFE=1,actinact = 1 ,created_time=CAST( '04/27/2018 16:28:07' AS TIMESTAMP),oparation_type=1 where ZONE_ID=8
+insert into ONLINEDATA (DLNO) values (8)
+update RTLS_PERSONDTLS set OPERATION_TYPE=2,TAG_ID= -1 ,ACTINACT=0 where PERSON_ID='pr32'
+delete from rtls_person_images where img_name='pr32'
+delete from RTLS_ONLINEPERSONSTATUS where PERSONID = 'pr32'
+delete from RTLS_PERSONSTATUS where PERSON_ID = 'pr32'
+update RTLS_PERSONDTLS set TAG_ID=-1,UN_ASSIGNED_TIME=CAST( '04/27/2018 16:53:56' AS TIMESTAMP),CREATED_TIME=CAST( '04/27/2018 16:53:56' AS TIMESTAMP) where PERSON_ID='pr32'
+update RTLS_PERSONDTLS set OPERATION_TYPE=2,TAG_ID= -1 ,ACTINACT=0 where PERSON_ID='pr31'
+delete from rtls_person_images where img_name='pr31'
+delete from RTLS_ONLINEPERSONSTATUS where PERSONID = 'pr31'
+delete from RTLS_PERSONSTATUS where PERSON_ID = 'pr31'
+update RTLS_PERSONDTLS set TAG_ID=-1,UN_ASSIGNED_TIME=CAST( '04/27/2018 16:54:01' AS TIMESTAMP),CREATED_TIME=CAST( '04/27/2018 16:54:01' AS TIMESTAMP) where PERSON_ID='pr31'
+update RTLS_PERSONDTLS set OPERATION_TYPE=2,TAG_ID= -1 ,ACTINACT=0 where PERSON_ID='pr30'
+delete from rtls_person_images where img_name='pr30'
+delete from RTLS_ONLINEPERSONSTATUS where PERSONID = 'pr30'
+delete from RTLS_PERSONSTATUS where PERSON_ID = 'pr30'
+update RTLS_PERSONDTLS set TAG_ID=-1,UN_ASSIGNED_TIME=CAST( '04/27/2018 16:54:04' AS TIMESTAMP),CREATED_TIME=CAST( '04/27/2018 16:54:04' AS TIMESTAMP) where PERSON_ID='pr30'
+update RTLS_PERSONDTLS set OPERATION_TYPE=2,TAG_ID= -1 ,ACTINACT=0 where PERSON_ID='pr29'
+delete from rtls_person_images where img_name='pr29'
+delete from RTLS_ONLINEPERSONSTATUS where PERSONID = 'pr29'
+delete from RTLS_PERSONSTATUS where PERSON_ID = 'pr29'
+update RTLS_PERSONDTLS set TAG_ID=-1,UN_ASSIGNED_TIME=CAST( '04/27/2018 16:54:08' AS TIMESTAMP),CREATED_TIME=CAST( '04/27/2018 16:54:08' AS TIMESTAMP) where PERSON_ID='pr29'
+update RTLS_PERSONDTLS set OPERATION_TYPE=2,TAG_ID= -1 ,ACTINACT=0 where PERSON_ID='pr33'
+delete from rtls_person_images where img_name='pr33'
+delete from RTLS_ONLINEPERSONSTATUS where PERSONID = 'pr33'
+delete from RTLS_PERSONSTATUS where PERSON_ID = 'pr33'
+update RTLS_PERSONDTLS set TAG_ID=-1,UN_ASSIGNED_TIME=CAST( '04/27/2018 16:54:25' AS TIMESTAMP),CREATED_TIME=CAST( '04/27/2018 16:54:25' AS TIMESTAMP) where PERSON_ID='pr33'
+update RTLS_PERSONDTLS set OPERATION_TYPE=2,TAG_ID= -1 ,ACTINACT=0 where PERSON_ID='pr28'
+delete from rtls_person_images where img_name='pr28'
+delete from RTLS_ONLINEPERSONSTATUS where PERSONID = 'pr28'
+delete from RTLS_PERSONSTATUS where PERSON_ID = 'pr28'
+update RTLS_PERSONDTLS set TAG_ID=-1,UN_ASSIGNED_TIME=CAST( '04/27/2018 16:54:28' AS TIMESTAMP),CREATED_TIME=CAST( '04/27/2018 16:54:28' AS TIMESTAMP) where PERSON_ID='pr28'
+update RTLS_PERSONDTLS set OPERATION_TYPE=2,TAG_ID= -1 ,ACTINACT=0 where PERSON_ID='pr28'
+delete from rtls_person_images where img_name='pr28'
+delete from RTLS_ONLINEPERSONSTATUS where PERSONID = 'pr28'
+delete from RTLS_PERSONSTATUS where PERSON_ID = 'pr28'
+update RTLS_PERSONDTLS set TAG_ID=-1,UN_ASSIGNED_TIME=CAST( '04/27/2018 16:54:32' AS TIMESTAMP),CREATED_TIME=CAST( '04/27/2018 16:54:32' AS TIMESTAMP) where PERSON_ID='pr28'
+update RTLS_PERSONDTLS set OPERATION_TYPE=2,TAG_ID= -1 ,ACTINACT=0 where PERSON_ID='pr34'
+delete from rtls_person_images where img_name='pr34'
+delete from RTLS_ONLINEPERSONSTATUS where PERSONID = 'pr34'
+delete from RTLS_PERSONSTATUS where PERSON_ID = 'pr34'
+update RTLS_PERSONDTLS set TAG_ID=-1,UN_ASSIGNED_TIME=CAST( '04/27/2018 16:54:36' AS TIMESTAMP),CREATED_TIME=CAST( '04/27/2018 16:54:36' AS TIMESTAMP) where PERSON_ID='pr34'
+update RTLS_PERSONDTLS set OPERATION_TYPE=2,TAG_ID= -1 ,ACTINACT=0 where PERSON_ID='pr25'
+delete from rtls_person_images where img_name='pr25'
+delete from RTLS_ONLINEPERSONSTATUS where PERSONID = 'pr25'
+delete from RTLS_PERSONSTATUS where PERSON_ID = 'pr25'
+update RTLS_PERSONDTLS set TAG_ID=-1,UN_ASSIGNED_TIME=CAST( '04/27/2018 16:57:56' AS TIMESTAMP),CREATED_TIME=CAST( '04/27/2018 16:57:56' AS TIMESTAMP) where PERSON_ID='pr25'
+update RTLS_PERSONDTLS set OPERATION_TYPE=2,TAG_ID= -1 ,ACTINACT=0 where PERSON_ID='pr24'
+delete from rtls_person_images where img_name='pr24'
+delete from RTLS_ONLINEPERSONSTATUS where PERSONID = 'pr24'
+delete from RTLS_PERSONSTATUS where PERSON_ID = 'pr24'
+update RTLS_PERSONDTLS set TAG_ID=-1,UN_ASSIGNED_TIME=CAST( '04/27/2018 16:58:07' AS TIMESTAMP),CREATED_TIME=CAST( '04/27/2018 16:58:07' AS TIMESTAMP) where PERSON_ID='pr24'

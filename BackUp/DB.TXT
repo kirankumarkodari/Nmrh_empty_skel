@@ -1,0 +1,19 @@
+ Entered Into DBVerification Procedure 08/09/2018 21:27:11
+ Entered Into DBConnected Procedure 08/09/2018 21:27:11
+CMAXSERVERS := 3;08/09/2018 21:27:11
+before UPDATING DIVISION OldSkelName,FAULT MINTIME & MAXTIME ...... ui updation 08/09/2018 21:27:11
+after UPDATING DIVISION OldSkelName,FAULT MINTIME & MAXTIME ...... ui updation 08/09/2018 21:27:11
+Bkp Form Closed after Update Process 08/09/2018 21:27:11
+CMAXSERVERS := 2;08/09/2018 21:27:11
+ RHData 2 Data Base Verification started at 08/09/2018 21:27:11
+ RHData 2 Data Base Verification completed at 08/09/2018 21:27:11
+Bkp Form Closed after Update Process 08/09/2018 21:27:34
+ Entered Into DBVerification Procedure 08/09/2018 21:28:45
+ Entered Into DBConnected Procedure 08/09/2018 21:28:45
+CMAXSERVERS := 3;08/09/2018 21:28:45
+CMAXSERVERS := 2;08/09/2018 21:28:45
+ RHData 2 Data Base Verification started at 08/09/2018 21:28:45
+ RHData 2 Data Base Verification completed at 08/09/2018 21:28:45
+ RHData 1 Data Base Verification started at 08/09/2018 21:28:45
+ RHData 1 Data Base Verification completed at 08/09/2018 21:28:46
+Bkp Form Closed after Update Process 08/09/2018 21:29:10

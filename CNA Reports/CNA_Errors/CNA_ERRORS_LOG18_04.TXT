@@ -1,0 +1,5 @@
+UPDATECNACLASSES [DL NO :- 1 ] : tuData_Avail_Lost_Info TOT DLCNT - 1 - New Station is Added with the Name 'Spot_1' at Index 1 on 28-Apr-18 13:35:48.975
+UPDATECNACLASSES [DL NO :- 10 ] : tuData_Avail_Lost_Info TOT DLCNT - 2 - New Station is Added with the Name 'spot_10' at Index 2 on 28-Apr-18 13:36:08.163
+UPDATECNACLASSES [DL NO :- 2 ] : tuData_Avail_Lost_Info TOT DLCNT - 3 - New Station is Added with the Name 'Spot_2' at Index 3 on 28-Apr-18 14:24:33.274
+UPDATECNACLASSES [DL NO :- 6 ] : tuData_Avail_Lost_Info TOT DLCNT - 4 - New Station is Added with the Name 'spot_6' at Index 4 on 28-Apr-18 14:33:36.812
+UPDATECNACLASSES [DL NO :- 5 ] : tuData_Avail_Lost_Info TOT DLCNT - 5 - New Station is Added with the Name 'spot_5' at Index 5 on 28-Apr-18 16:27:12.067

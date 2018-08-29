@@ -1,0 +1,11 @@
+SEQUENCE MISS REPORT FOR spot_10
+Report Taken on : 29/Apr/18 10:37:07
+From: 28/Apr/18  19:00:00
+To: 28/Apr/18  23:59:59 
+SlNo     FROM SEQ.NO                    TO SEQ.NO     FROM TIME                   TO TIME                     COUNT     REMARKS     
+1        5103                           5115          04/28/2018 20:08:00:984     04/28/2018 20:08:00:984     11        Missed      
+2        5365                           5368          04/28/2018 20:28:00:984     04/28/2018 20:28:00:984     2         Missed      
+3        5979                           5981          04/28/2018 21:14:00:984     04/28/2018 21:14:00:984     1         Missed      
+4        6228                           6230          04/28/2018 21:34:00:984     04/28/2018 21:34:00:984     1         Missed      
+                                                                                                                                    
+         No Of Times  Missed :          4             Total Missed:               15                                                

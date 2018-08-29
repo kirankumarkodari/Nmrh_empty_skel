@@ -1,0 +1,99 @@
+ Fun: LoadHostStrings 3012-08/09/2018 21:27:11
+OldSkelFlag := True; 3045-08/09/2018 21:27:11
+Entered Into FormActive08/09/2018 21:27:11
+Line 146-08/09/2018 21:27:11
+Line 160-08/09/2018 21:27:11
+Line 180-08/09/2018 21:27:11
+Line 198-08/09/2018 21:27:11
+Line 222-08/09/2018 21:27:11
+Line 231-08/09/2018 21:27:11
+Line 263-08/09/2018 21:27:11
+Line 601-08/09/2018 21:27:11
+Line 610-08/09/2018 21:27:11
+Line 616-08/09/2018 21:27:11
+Line 625-08/09/2018 21:27:11
+Cnxn.DBReconnectTmr[h] := TTimer.create(Mainform); 3113-08/09/2018 21:27:11
+Cnxn.DBReconnectTmr[h] := TTimer.create(Mainform); 3113-08/09/2018 21:27:11
+Cnxn.DBReconnectTmr[h] := TTimer.create(Mainform); 3113-08/09/2018 21:27:11
+Cnxn.DSNames[i].Connected := False; 3135-08/09/2018 21:27:11
+After Cnxn.DSNames[i].Connected := False; 3138-08/09/2018 21:27:11
+if RHDataBases[J] = nil then 3149-08/09/2018 21:27:11
+ if (i mod 2 = 0) and (RHDataBases[J].Connected) Then 3167-08/09/2018 21:27:11
+ Session.AddAlias(cAliasName + IntToStr(J), INTRBASE, DBList) 3211-08/09/2018 21:27:11
+MLoadForm.LoadStatusBar.Panels[1].Text :=Connecting to the DataBase....; 3222-08/09/2018 21:27:11
+Databasename := CDataBaseName + IntToStr(J); 3240-08/09/2018 21:27:11
+After  AliasName := cAliasName + IntToStr(J); 3267-08/09/2018 21:27:11
+Before  Connected := True; 3295-08/09/2018 21:27:11
+After  Connected := True; 3300-08/09/2018 21:27:11
+dataBasePoster_AppLayer.ShouldRecreateDBObjs := True; 3314-08/09/2018 21:27:11
+Cnxn.DSNames[i].Connected := False; 3135-08/09/2018 21:27:11
+After Cnxn.DSNames[i].Connected := False; 3138-08/09/2018 21:27:11
+if RHDataBases[J] = nil then 3149-08/09/2018 21:27:11
+ if (i mod 2 = 0) and (RHDataBases[J].Connected) Then 3167-08/09/2018 21:27:11
+ Session.AddAlias(cAliasName + IntToStr(J), INTRBASE, DBList) 3211-08/09/2018 21:27:11
+MLoadForm.LoadStatusBar.Panels[1].Text :=Connecting to the DataBase....; 3222-08/09/2018 21:27:11
+Databasename := CDataBaseName + IntToStr(J); 3240-08/09/2018 21:27:11
+After  AliasName := cAliasName + IntToStr(J); 3267-08/09/2018 21:27:11
+Before  Connected := True; 3295-08/09/2018 21:27:11
+After  Connected := True; 3300-08/09/2018 21:27:11
+dataBasePoster_AppLayer.ShouldRecreateDBObjs := True; 3314-08/09/2018 21:27:11
+Cnxn.DSNames[i].Connected := False; 3135-08/09/2018 21:27:11
+After Cnxn.DSNames[i].Connected := False; 3138-08/09/2018 21:27:11
+if RHDataBases[J] = nil then 3149-08/09/2018 21:27:11
+ if (i mod 2 = 0) and (RHDataBases[J].Connected) Then 3167-08/09/2018 21:27:11
+ Session.AddAlias(cAliasName + IntToStr(J), INTRBASE, DBList) 3211-08/09/2018 21:27:11
+MLoadForm.LoadStatusBar.Panels[1].Text :=Connecting to the DataBase....; 3222-08/09/2018 21:27:11
+Databasename := CDataBaseName + IntToStr(J); 3240-08/09/2018 21:27:11
+After  AliasName := cAliasName + IntToStr(J); 3267-08/09/2018 21:27:11
+Before Connected := False 3285-08/09/2018 21:27:11
+After Connected := False 3288-08/09/2018 21:27:11
+dataBasePoster_AppLayer.ShouldRecreateDBObjs := True; 3314-08/09/2018 21:27:11
+Before VerifyDataBase(J); 3485-08/09/2018 21:27:11
+After VerifyDataBase(J); 3488-08/09/2018 21:27:11
+Before  RHDataBases[J].Connected := False; 3497-08/09/2018 21:27:11
+After  RHDataBases[J].Connected := True; 3504-08/09/2018 21:27:11
+oldskelname := FormatDateTime(YYMMDD, now); 3557-08/09/2018 21:27:11
+fileexists(cSkelDirNm + SKEL_POST + DBExtension) 3601-08/09/2018 21:27:11
+  CopyFile(PChar(cBackUpDirNm + CurrentDayGDB),PChar(cSkelDirNm + SKEL_POST + DBExtension), True); 3608-08/09/2018 21:27:11
+Entered Into FormActive08/09/2018 21:27:34
+ Fun: LoadHostStrings 3012-08/09/2018 21:28:45
+Cnxn.DBReconnectTmr[h] := TTimer.create(Mainform); 3113-08/09/2018 21:28:45
+Cnxn.DBReconnectTmr[h] := TTimer.create(Mainform); 3113-08/09/2018 21:28:45
+Cnxn.DBReconnectTmr[h] := TTimer.create(Mainform); 3113-08/09/2018 21:28:45
+Cnxn.DSNames[i].Connected := False; 3135-08/09/2018 21:28:45
+After Cnxn.DSNames[i].Connected := False; 3138-08/09/2018 21:28:45
+if RHDataBases[J] = nil then 3149-08/09/2018 21:28:45
+ if (i mod 2 = 0) and (RHDataBases[J].Connected) Then 3167-08/09/2018 21:28:45
+ Session.AddAlias(cAliasName + IntToStr(J), INTRBASE, DBList) 3211-08/09/2018 21:28:45
+MLoadForm.LoadStatusBar.Panels[1].Text :=Connecting to the DataBase....; 3222-08/09/2018 21:28:45
+Databasename := CDataBaseName + IntToStr(J); 3240-08/09/2018 21:28:45
+After  AliasName := cAliasName + IntToStr(J); 3267-08/09/2018 21:28:45
+Before  Connected := True; 3295-08/09/2018 21:28:45
+After  Connected := True; 3300-08/09/2018 21:28:45
+dataBasePoster_AppLayer.ShouldRecreateDBObjs := True; 3314-08/09/2018 21:28:45
+Cnxn.DSNames[i].Connected := False; 3135-08/09/2018 21:28:45
+After Cnxn.DSNames[i].Connected := False; 3138-08/09/2018 21:28:45
+if RHDataBases[J] = nil then 3149-08/09/2018 21:28:45
+ if (i mod 2 = 0) and (RHDataBases[J].Connected) Then 3167-08/09/2018 21:28:45
+ Session.AddAlias(cAliasName + IntToStr(J), INTRBASE, DBList) 3211-08/09/2018 21:28:45
+MLoadForm.LoadStatusBar.Panels[1].Text :=Connecting to the DataBase....; 3222-08/09/2018 21:28:45
+Databasename := CDataBaseName + IntToStr(J); 3240-08/09/2018 21:28:45
+After  AliasName := cAliasName + IntToStr(J); 3267-08/09/2018 21:28:45
+Before  Connected := True; 3295-08/09/2018 21:28:45
+After  Connected := True; 3300-08/09/2018 21:28:45
+dataBasePoster_AppLayer.ShouldRecreateDBObjs := True; 3314-08/09/2018 21:28:45
+Cnxn.DSNames[i].Connected := False; 3135-08/09/2018 21:28:45
+After Cnxn.DSNames[i].Connected := False; 3138-08/09/2018 21:28:45
+if RHDataBases[J] = nil then 3149-08/09/2018 21:28:45
+ if (i mod 2 = 0) and (RHDataBases[J].Connected) Then 3167-08/09/2018 21:28:45
+ Session.AddAlias(cAliasName + IntToStr(J), INTRBASE, DBList) 3211-08/09/2018 21:28:45
+MLoadForm.LoadStatusBar.Panels[1].Text :=Connecting to the DataBase....; 3222-08/09/2018 21:28:45
+Databasename := CDataBaseName + IntToStr(J); 3240-08/09/2018 21:28:45
+After  AliasName := cAliasName + IntToStr(J); 3267-08/09/2018 21:28:45
+Before Connected := False 3285-08/09/2018 21:28:45
+After Connected := False 3288-08/09/2018 21:28:45
+dataBasePoster_AppLayer.ShouldRecreateDBObjs := True; 3314-08/09/2018 21:28:45
+Before VerifyDataBase(J); 3485-08/09/2018 21:28:45
+After VerifyDataBase(J); 3488-08/09/2018 21:28:45
+Before VerifyDataBase(J); 3511-08/09/2018 21:28:45
+Entered Into FormActive08/09/2018 21:29:10
